@@ -60,3 +60,18 @@ console.log(a === b)
 //problem 3 : false: Comparisons ($>, <$) convert null to $0$. $0 > 0$ is false.false: The equality operator (==) is picky; it does not convert null to $0$. It only equals itself or undefined.
 // Email is empty": An empty string "" is on the Falsy List."Username exists": The string "0" is NOT empty (it contains a character). Only a literal number 0 is falsy. Anything inside quotes that isn't empty is true
 
+let Basespeed = 10;
+let power = "5";
+let isSuper = true 
+
+let displaySpeed = Basespeed + power + (+isSuper)
+console.log(displaySpeed)
+
+
+let rank = 1 
+let currentRank = ++rank 
+let afterRank = rank++
+
+console.log(currentRank )
+console.log(afterRank)
+

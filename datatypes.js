@@ -27,3 +27,4 @@ console.log(id1 === id2);
 
 "use Strict"
 
+console.log(+ "")
