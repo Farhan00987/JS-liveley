@@ -75,3 +75,16 @@ let afterRank = rank++
 console.log(currentRank )
 console.log(afterRank)
 
+let Dscore = " 90"
+let DscoreIn = Number(Dscore)
+
+if (DscoreIn >= 90){
+    if(DscoreIn === 90){
+        console.log( "Score is valid and exactly 90 100%")
+    }else{
+        console.log("score is greater that 100")
+    }
+}else{
+    console.log("Score is not valid")
+}
+
